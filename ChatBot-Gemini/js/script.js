@@ -6,7 +6,7 @@ const toggleTheme = document.querySelector("#toggle-theme-button");
 
 
 //*API Config*
-const API_KEY = "AIzaSyD8T7eB9fV6NGsuSpVfWijoMN2WOjZq1ls";
+const API_KEY = "";
 
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
