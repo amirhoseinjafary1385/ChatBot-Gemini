@@ -1,4 +1,4 @@
-//API = AIzaSyD8T7eB9fV6NGsuSpVfWijoMN2WOjZq1ls
+//API = "YOur APi Gemini Key  ai.google.dev"
  
 const typingForm = document.querySelector(".typing-form");
 const chatList = document.querySelector(".chat-list");
