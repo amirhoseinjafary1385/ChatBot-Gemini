@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini-ChatBot</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- favIcon -->
+    <link rel="icon" type="images/x-icon" href="../images/gemini.svg">
+    <!-- Google Fonts | گوگل فونت -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <style>
+
+
+        .relative {
+            position: relative;
+        }
+        .p-1 {
+            padding: 0.25rem;
+        }
+        .rounded-sm {
+            border-radius: 0.125rem;
+        }
+        .flex {
+            display: flex;
+        }
+        .items-center {
+            align-items: center;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .bg-token-main-surface-primary {
+            background-color: #f0f0f0; /* Example color */
+        }
+        .text-token-text-primary {
+            color: #333; /* Example color */
+        }
+        .h-8 {
+            height: 2rem;
+        }
+        .w-8 {
+            width: 2rem;
+        }
+        .icon-md {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    /* اضافه | FOlk */
+    </style>
+</head>
+<body>
+<div style="text-align: center;">
+    <img style="width: 200px; height: 100px;" src="https://logowik.com/content/uploads/images/google-bard3872.logowik.com.webp" alt="Bot...">
+
+</div>
+    
+<header class="header">
+       <!-- خوش آمد گویی... -->
+    <h2 class="title">Hello, EveryBody...</h2>
+    <h5 class="subtitle">How can i assist you today?...</h5>
+
+    <ul class="suggestion-list">
+        <li class="suggestion">
+            
+            <h4 class="text">Help me to create creative painting...</h4>
+            <span class="icon material-symbols-rounded">brush</span>
+        </li>
+        
+        <li class="suggestion">
+            
+            <h4 class="text">what are the best tips to improve my Skill... </h4>
+            <span class="icon material-symbols-rounded">lightbulb</span>
+        </li>
+        <li class="suggestion">
+            
+            <h4 class="text">Write Javascripts Code for Moving the car...</h4>
+            <span class="icon material-symbols-rounded">explore</span>
+        </li>
+        <li class="suggestion">
+            
+            <h4 class="text">Introducing Dark-Souls-4 Talk...</h4>
+            <span class="icon material-symbols-rounded">code</span>
+        </li>
+        
+    </ul>
+</header>
+
+<!-- Chat-List -->
+<div class="chat-list"></div> 
+
+<!-- Typing-Area -->
+<div class="typing-area">
+    <form action="#" class="typing-form">
+        <div class="input-wrapper">
+            <input type="text" class="typing-input" placeholder="Type Somethings...| BotHere..." required>
+        </div>
+        <button class="icon material-symbols-rounded">send</button>
+
+        <div class="action-buttons">
+            <span id="toggle-theme-button" class="icon material-symbols-rounded">light_mode</span>
+            <span class="icon material-symbols-rounded">delete</span>
+        </div>
+</form>
+<p style="text-align: center;" class="disclaimer-text"> Gemini may display incarrute info, including about people, so <a style="text-decoration: none;" href="https://ai.google.dev/gemini-api"><span style="color: pink;">double-check</span></a>its responses...</p>
+</div>
+    
+
+<script src="../js/script.js"></script>
+</body>
+</html>
